@@ -1,0 +1,74 @@
+@import url(https://db.onlinewebfonts.com/c/dffb2b80813d195d26fa4d2aad48b059?family=Gotham+Rounded+Medium);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: "Gotham-Rounded";
+  src: url("https://db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.eot");
+  src: url("https://db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/dffb2b80813d195d26fa4d2aad48b059.svg#Gotham Rounded Medium")
+      format("svg");
+}
+body {
+  font-family: "Gotham-Rounded", sans-serif !important;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+.gradient-text {
+  background-image: linear-gradient(135.62deg, #fe5b3a 1.06%, #fc2a64 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient-bg {
+  background-image: linear-gradient(135.62deg, #fe5b3a 1.06%, #fc2a64 100%);
+  color: #00070e;
+}
+
+li a {
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+li a::after {
+  content: ""; /* Create the pseudo-element */
+  width: 0; /* Start with no width */
+  height: 2px;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transform: rotate(6deg);
+  background-image: linear-gradient(135.62deg, #fe5b3a 1.06%, #fc2a64 100%);
+  transition: width 0.1s ease; /* Transition only the width */
+}
+
+li a:hover {
+  background-image: linear-gradient(135.62deg, #fe5b3a 1.06%, #fc2a64 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+li a:hover::after {
+  width: 100%; /* Expand the width on hover */
+}
+
+.trustShadow {
+  box-shadow: 0px 0px 32px 0px #00000029;
+}
+
+.trustBorder {
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    178deg,
+    rgba(252, 42, 100, 0) 0%,
+    #fc2a64 49%,
+    rgba(252, 42, 100, 0) 100%
+  );
+}
