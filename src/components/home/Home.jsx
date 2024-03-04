@@ -3,6 +3,7 @@ import Nav from "../common/Nav";
 import HeroSection from "./HeroSection";
 import TrustedUser from "./TrustedUser";
 import Benefits from "./Benefits";
+import HowItWork from "./HowItWork";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <HeroSection />
       <TrustedUser />
       <Benefits />
+      <HowItWork />
     </>
   );
 };
