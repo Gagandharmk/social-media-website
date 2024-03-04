@@ -1,7 +1,7 @@
 export const OnlineIcon = () => (
   <>
     <svg
-      width="w-full"
+      width="100%"
       height="72"
       viewBox="0 0 72 72"
       fill="none"
@@ -344,7 +344,7 @@ export const OnlineIcon = () => (
 export const CalendarIcon = () => (
   <>
     <svg
-      width="w-full"
+      width="100%"
       height="72"
       viewBox="0 0 72 72"
       fill="none"
@@ -472,7 +472,7 @@ export const CalendarIcon = () => (
 export const ReportIcon = () => (
   <>
     <svg
-      width="w-full"
+      width="100%"
       height="72"
       viewBox="0 0 72 72"
       fill="none"
@@ -695,7 +695,7 @@ export const ReportIcon = () => (
 export const BusinessIcon = () => (
   <>
     <svg
-      width="w-full"
+      width="100%"
       height="72"
       viewBox="0 0 72 72"
       fill="none"
@@ -798,7 +798,7 @@ export const BusinessIcon = () => (
 export const CampaignsIcon = () => (
   <>
     <svg
-      width="w-full"
+      width="100%"
       height="72"
       viewBox="0 0 72 72"
       fill="none"
@@ -1051,7 +1051,7 @@ export const CampaignsIcon = () => (
 export const AdvertiseIcon = () => (
   <>
     <svg
-      width="w-full"
+      width="100%"
       height="72"
       viewBox="0 0 72 72"
       fill="none"

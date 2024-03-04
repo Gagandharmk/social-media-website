@@ -5,28 +5,28 @@ import ButtonPrimary from "../common/ButtonPrimary";
 const HeroSection = () => {
   return (
     <section
-      className="bg-[url('/images/png/Hero-bg.png')] bg-no-repeat g-origin-content bg-bottom bg-cover w-full  relative"
+      className="bg-[url('/images/webp/Hero-bg.webp')] bg-no-repeat g-origin-content bg-bottom bg-cover w-full  relative"
       id="home"
     >
-      <div className="max-w-[1170px] sm:px-4 px-2 md:py-[206px] pt-[128px] sm:pb-[60px] pb-[20px] w-full mx-auto ">
-        <div className="w-full fixed top-0 left-0 z-50">
+      <div className="max-w-[1170px] sm:px-4 px-2 xl:py-[206px]  lg:py-[190px] md:py-[160px] sm:py-[130px] pt-[110px] pb-[30px] w-full mx-auto ">
+        <div className="w-full fixed top-0 left-1/2 transform -translate-x-1/2  z-50 mx-auto backdrop-blur-sm">
           <Nav />
         </div>
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center sm:gap-[52px] gap-7 relative">
           <img
             className="hidden lg:block absolute right-[-120px] top-[-55px]"
-            src="/images/png/forgroundImg1.png"
+            src="/images/webp/forgroundImg1.webp"
             alt=""
           />{" "}
           <img
             className="hidden lg:block absolute left-[-80px] bottom-[-130px]"
-            src="/images/png/forgroundImg2.png"
+            src="/images/webp/forgroundImg2.webp"
             alt=""
           />{" "}
           <div className="flex flex-col max-w-[609px] w-full relative">
             <img
               className="hidden lg:block absolute right-[-90px] top-[-40px]"
-              src="/images/png/forgroundImg3.png"
+              src="/images/webp/forgroundImg3.webp"
               alt=""
             />
             <h1 className="text-6xl  lg:text-left text-center">
@@ -45,7 +45,7 @@ const HeroSection = () => {
           <div className="max-w-[477px] w-full">
             <img
               className="object-contain"
-              src="/images/png/hero-image.png"
+              src="/images/webp/hero-image.webp"
               alt="hero-image"
             />
           </div>

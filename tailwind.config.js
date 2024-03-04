@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        custom: "0px 0px 52px 0px rgba(252, 48, 95, 0.29)",
+      },
       fontFamily: {
         gotham: "Gotham-Rounded",
       },

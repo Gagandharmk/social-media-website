@@ -52,23 +52,23 @@ const BenefitCardsData = [
 const Benefits = () => {
   return (
     <section className="lg:pt-[52px] lg:pb-[94px] py-[32px] " id="benefits">
-      <div className=" max-w-[1170px] sm:px-4 px-2 w-full mx-auto flex flex-col items-center sm:gap-[52px] gap-[32px]">
+      <div className=" max-w-[1170px] sm:px-4 px-2 w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5">
         <div className="relative">
           <h2 className="text-5xl text-[#00070E]">Benefits Boulevard</h2>
           <img
             className=" absolute left-[-60px] top-[-60px]"
-            src="/images/png/BebefitForground1.png"
+            src="/images/png/BebefitForground1.webp"
             alt=""
           />{" "}
         </div>
-        <div className="flex justify-center gap-5 flex-wrap    ">
+        <div className="flex justify-center md:gap-5 gap-3 flex-wrap    ">
           {BenefitCardsData.map((card, index) => (
             <div
               key={index}
-              className="card flex flex-col items-center rounded-[16px] gridentBorder p-5 max-w-[364px] w-full  cursor-pointer"
+              className="card flex flex-col items-center rounded-[16px] gridentBorder sm:p-5 p-3 md:max-w-[364px] max-w-[95%]  w-full lg:min-h-[330px] cursor-pointer overflow-hidden bg-[url('/images/png/CardbackGround.webp')] bg-no-repeat  bg-center bg-[100% 100%] hover:bg-none hover:shadow-custom transition duration-[0.3s] ease-in-out "
             >
               <div className="md:w-fit w-[50px]">{card.icon}</div>
-              <h4 className="text-2xl text-[#00070E] mt-[16px] mb-[8px] text-center">
+              <h4 className="text-2xl text-[#00070E] sm:mt-[16px] mt-[12px] sm:mb-[8px] mb-[4px] text-center">
                 {card.title}
               </h4>
               <span className="text-base text-[#00070E] text-center">
