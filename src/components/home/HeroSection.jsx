@@ -39,9 +39,9 @@ const HeroSection = () => {
               <ButtonPrimary primary={"Get Started"} />
             </div>
           </div>
-          <div className="max-w-[526px] w-full">
+          <div className="max-w-[477px] w-full">
             <img
-              className=" w-full h-full object-contain "
+              className="object-contain"
               src="/images/png/hero-image.png"
               alt="hero-image"
             />
