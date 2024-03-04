@@ -8,11 +8,11 @@ const HeroSection = () => {
       className="bg-[url('/images/png/Hero-bg.png')] bg-no-repeat g-origin-content bg-bottom bg-cover w-full  relative"
       id="home"
     >
-      <div className="max-w-[1170px] sm:px-4 px-2 md:py-[206px] pt-[128px] pb-[60px] w-full mx-auto ">
+      <div className="max-w-[1170px] sm:px-4 px-2 md:py-[206px] pt-[128px] sm:pb-[60px] pb-[20px] w-full mx-auto ">
         <div className="w-full fixed top-0 left-0 z-50">
           <Nav />
         </div>
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-center sm:gap-[52px] gap-4 relative">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-center sm:gap-[52px] gap-7 relative">
           <img
             className="hidden lg:block absolute right-[-120px] top-[-55px]"
             src="/images/png/forgroundImg1.png"
@@ -33,7 +33,7 @@ const HeroSection = () => {
               Transforming Social Media{" "}
               <span className="gradient-text">Management</span> for You
             </h1>
-            <p className="text-base mt-[16px] mb-[32px] text-[#00070E] lg:text-left text-center">
+            <p className="text-base sm:mt-[16px] mt-[8px] sm:mb-[32px] mb-[14px] text-[#00070E] lg:text-left text-center">
               In the dynamic landscape of digital interaction, we understand the
               pivotal role social media plays in connecting individuals and
               businesses
