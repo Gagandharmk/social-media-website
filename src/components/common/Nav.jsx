@@ -12,10 +12,10 @@ const Nav = () => {
         <div className="flex gap-[130px] ">
           <ul className="hidden justify-center items-center gap-[32px] lg:flex">
             <li className="text-base text-nowrap  ">
-              <Link href="/">Home</Link>
+              <Link href="#home">Home</Link>
             </li>
             <li className="text-base text-nowrap">
-              <Link href="/Benefits">Benefits</Link>
+              <Link href="#benefits">Benefits</Link>
             </li>
             <li className="text-base text-nowrap">
               <Link href="/how-it-work">How It Works</Link>

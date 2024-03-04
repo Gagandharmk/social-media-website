@@ -16,7 +16,7 @@
       format("svg");
 }
 body {
-  font-family: "Gotham-Rounded", sans-serif !important;
+  /* font-family: "Gotham-Rounded", sans-serif !important; */
   /* font-family: "Poppins", sans-serif; */
 }
 
@@ -71,4 +71,23 @@ li a:hover::after {
     #fc2a64 49%,
     rgba(252, 42, 100, 0) 100%
   );
+}
+.gridentBorder {
+  position: relative;
+}
+.gridentBorder::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  padding: 1px;
+  background: linear-gradient(
+    135.62deg,
+    rgba(254, 91, 58, 0.24) 1.06%,
+    rgba(252, 42, 100, 0.24) 100%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
 }

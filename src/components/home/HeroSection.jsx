@@ -4,7 +4,10 @@ import ButtonPrimary from "../common/ButtonPrimary";
 
 const HeroSection = () => {
   return (
-    <section className="bg-[url('/images/png/Hero-bg.png')] bg-no-repeat g-origin-content bg-bottom bg-cover w-full  relative">
+    <section
+      className="bg-[url('/images/png/Hero-bg.png')] bg-no-repeat g-origin-content bg-bottom bg-cover w-full  relative"
+      id="home"
+    >
       <div className="max-w-[1170px] sm:px-4 px-2 md:py-[206px] pt-[128px] pb-[60px] w-full mx-auto ">
         <div className="w-full fixed top-0 left-0 z-50">
           <Nav />
