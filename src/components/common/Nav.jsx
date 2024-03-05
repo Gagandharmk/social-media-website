@@ -20,7 +20,7 @@ const Nav = () => {
             <Link href="#how-it-work">How It Works</Link>
           </li>
           <li className="text-base text-nowrap">
-            <Link href="#service">Service</Link>
+            <Link href="#services">Service</Link>
           </li>
           <li className="text-base text-nowrap">
             <Link href="#testimonials">Testimonials</Link>

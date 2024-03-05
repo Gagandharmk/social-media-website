@@ -5,6 +5,7 @@ import TrustedUser from "./TrustedUser";
 import Benefits from "./Benefits";
 import HowItWork from "./HowItWork";
 import OurServices from "./OurServices";
+import ClientsSay from "./ClientsSay";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Benefits />
       <HowItWork />
       <OurServices />
+      <ClientsSay />
     </>
   );
 };

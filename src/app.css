@@ -17,7 +17,7 @@
 }
 body {
   /* font-family: "Gotham-Rounded", sans-serif !important; */
-  /* font-family: "Poppins", sans-serif; */
+  font-family: "Poppins", sans-serif;
 }
 html {
   scroll-behavior: smooth !important;
@@ -94,13 +94,9 @@ li a:hover::after {
   mask-composite: exclude;
   pointer-events: none;
 }
-.swiper-wrapper {
-  /* max-width: 1172px !important;
-  width: 100%; */
-}
+
 .swiper {
   padding: 40px 20px !important;
-
   height: 100%;
 }
 
