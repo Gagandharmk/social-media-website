@@ -8,10 +8,10 @@ const HeroSection = () => {
       className="bg-[url('/images/webp/Hero-bg.webp')] bg-no-repeat g-origin-content bg-bottom bg-cover w-full  relative"
       id="home"
     >
+      <div className="sticky top-0 left-0 w-full z-40 backdrop-brightness-200 backdrop-blur-sm">
+        <Nav />
+      </div>
       <div className="max-w-[1170px] sm:px-4 px-2 xl:py-[206px]  lg:py-[190px] md:py-[160px] sm:py-[130px] pt-[110px] pb-[30px] w-full mx-auto ">
-        <div className="fixed top-0 left-0 w-full z-40 backdrop-brightness-200 backdrop-blur-sm">
-          <Nav />
-        </div>
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center sm:gap-[52px] gap-7 relative">
           <img
             className="hidden lg:block absolute right-[-120px] top-[-55px]"

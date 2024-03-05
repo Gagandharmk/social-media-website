@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -10,8 +10,10 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { NextIcon, PrevIcon } from "../common/Icon";
 
 const OurServices = () => {
+  const swiperRef = useRef(null);
   const BenefitCardsData = [
     {
       src: "/images/webp/ServiceFollower.webp",
@@ -75,21 +77,26 @@ const OurServices = () => {
               alt=""
             />{" "}
           </div>
-          <div className="flex items-center justify-center mx-auto">
+          <div className="flex max-w-[1172px] w-full items-center justify-center mx-auto">
             <Swiper
+              ref={swiperRef}
+              centeredSlides={true}
               spaceBetween={30}
-              //   centeredSlides={true}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
-              loop={true}
+              // loop={true}
+              // autoplay={{
+              //   delay: 2500,
+              //   disableOnInteraction: false,
+              // }}
               pagination={{
                 clickable: true,
               }}
               navigation={true}
               modules={[Autoplay, Pagination, Navigation]}
-              className="mySwiper  "
+              navigation={{
+                prevEl: "swiper-button-prev",
+                nextEl: "swiper-button-next",
+              }}
+              className="mySwiper "
               breakpoints={{
                 640: {
                   slidesPerView: 1,
@@ -108,7 +115,7 @@ const OurServices = () => {
               {BenefitCardsData.map((card, index) => (
                 <SwiperSlide
                   key={index}
-                  className="card flex flex-col items-start rounded-[16px] gridentBorder sm:p-5 p-3 max-w-[364px]  lg:min-h-[330px] cursor-pointer overflow-hidden hover:bg-none hover:shadow-custom transition duration-[0.3s] ease-in-out "
+                  className="card flex flex-col items-start rounded-[16px] gridentBorder sm:p-5 p-3 !max-w-[364px]  lg:min-h-[330px] cursor-pointer overflow-hidden hover:bg-none hover:shadow-custom transition duration-[0.3s] ease-in-out "
                 >
                   <div className="md:w-fit ">
                     <img src={card.src} alt="Image" />
@@ -121,6 +128,12 @@ const OurServices = () => {
                   </span>
                 </SwiperSlide>
               ))}
+              <div className="swiper-button-prev">
+                <PrevIcon />
+              </div>
+              <div className="swiper-button-next">
+                <NextIcon />
+              </div>
             </Swiper>
           </div>
         </div>

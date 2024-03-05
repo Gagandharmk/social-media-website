@@ -4,7 +4,7 @@ import ButtonPrimary from "./ButtonPrimary";
 
 const Nav = () => {
   return (
-    <nav className="w-full max-w[1172px]  mx-auto flex justify-between items-center  bg-transparent py-[18px]  px-4">
+    <nav className="w-full max-w-[1172px]  mx-auto flex justify-between items-center  bg-transparent py-[18px]  px-4">
       <div className="text-4xl  gradient-text cursor-pointer ">
         <Link href="/">Logo</Link>
       </div>
