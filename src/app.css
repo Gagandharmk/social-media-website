@@ -19,6 +19,9 @@ body {
   /* font-family: "Gotham-Rounded", sans-serif !important; */
   /* font-family: "Poppins", sans-serif; */
 }
+html {
+  scroll-behavior: smooth !important;
+}
 
 .gradient-text {
   background-image: linear-gradient(135.62deg, #fe5b3a 1.06%, #fc2a64 100%);
@@ -91,9 +94,17 @@ li a:hover::after {
   mask-composite: exclude;
   pointer-events: none;
 }
-.card {
-  box-shadow: none;
+
+.swiper {
+  padding: 40px 20px !important;
+  max-width: 1172px;
+  width: 100%;
+  height: 100%;
 }
-.card:hover {
-  box-shadow: 0px 0px 52px 0px #fc305f29;
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
 }

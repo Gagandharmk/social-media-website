@@ -1265,3 +1265,78 @@ export const AdvertiseIcon = () => (
     </svg>
   </>
 );
+export const CheckedIcon = () => (
+  <>
+    <svg
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_b_176_11824)">
+        <rect
+          width="32"
+          height="32"
+          rx="16"
+          fill="url(#paint0_linear_176_11824)"
+          fill-opacity="0.2"
+        />
+        <path
+          d="M7 16.76L10.6 20.36M15.64 14.6L19.24 11M12.76 16.76L16.36 20.36L25 11"
+          stroke="url(#paint1_linear_176_11824)"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </g>
+      <defs>
+        <filter
+          id="filter0_b_176_11824"
+          x="-60"
+          y="-60"
+          width="152"
+          height="152"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feGaussianBlur in="BackgroundImageFix" stdDeviation="30" />
+          <feComposite
+            in2="SourceAlpha"
+            operator="in"
+            result="effect1_backgroundBlur_176_11824"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_backgroundBlur_176_11824"
+            result="shape"
+          />
+        </filter>
+        <linearGradient
+          id="paint0_linear_176_11824"
+          x1="0.687501"
+          y1="-7.95466e-07"
+          x2="32"
+          y2="32"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#FE5B3A" />
+          <stop offset="1" stop-color="#FC2A64" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_176_11824"
+          x1="7.38672"
+          y1="11"
+          x2="14.7922"
+          y2="25.554"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#FE5B3A" />
+          <stop offset="1" stop-color="#FC2A64" />
+        </linearGradient>
+      </defs>
+    </svg>
+  </>
+);

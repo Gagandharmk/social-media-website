@@ -51,7 +51,7 @@ const BenefitCardsData = [
 
 const Benefits = () => {
   return (
-    <section className="lg:pt-[52px] lg:pb-[94px] py-[32px] " id="benefits">
+    <section className="lg:pt-[52px] lg:pb-[94px] py-[40px] " id="benefits">
       <div className=" max-w-[1170px] sm:px-4 px-2 w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 relative">
         <img
           className="hidden lg:block absolute right-[-120px] top-[50px]"
