@@ -186,3 +186,14 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="number"] {
   -moz-appearance: textfield; /* Firefox */
 }
+
+/* ################################### Footer styling ############################################## */
+.footer-link {
+  transition: all 0.2s ease-in-out;
+}
+.footer-link:hover {
+  background-image: linear-gradient(135.62deg, #fe5b3a 1.06%, #fc2a64 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

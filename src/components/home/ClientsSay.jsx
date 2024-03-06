@@ -41,7 +41,7 @@ const ClientsSay = () => {
     <section
       className="bg-[url('/images/webp/HowItWork.webp')] bg-no-repeat  bg-center w-full xl:py-[206px] lg:py-[190px] md:py-[160px] sm:py-[130px] pt-[50px] pb-[30px]"
       style={{ backgroundSize: "100% 100%" }}
-      id="how-it-work"
+      id="testimonials"
     >
       <div className="max-w-[1170px] px-5  w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 ">
         <div className="relative">
