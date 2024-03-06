@@ -79,7 +79,7 @@ const OurServices = () => {
                 alt=""
               />{" "}
             </div>{" "}
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap justify-center items-center gap-3">
               <ButtonSecondary secondary={"Youtube"} />
               <ButtonSecondary secondary={"Instagram"} />
               <ButtonSecondary secondary={"Facebook"} />

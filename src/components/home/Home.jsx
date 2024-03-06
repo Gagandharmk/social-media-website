@@ -8,6 +8,7 @@ import OurServices from "./OurServices";
 import ClientsSay from "./ClientsSay";
 import Faqs from "./Faqs";
 import SuccessMetrics from "./SuccessMetrics";
+import OurBlogs from "./OurBlogs";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <ClientsSay />
       <Faqs />
       <SuccessMetrics />
+      <OurBlogs />
     </>
   );
 };
