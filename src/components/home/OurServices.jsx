@@ -99,7 +99,7 @@ const OurServices = () => {
               pagination={{
                 clickable: true,
               }}
-              navigation={true}
+              // navigation={true}
               modules={[Autoplay, Pagination, Navigation]}
               navigation={{
                 prevEl: "swiper-button-prev",
