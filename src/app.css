@@ -128,3 +128,9 @@ li a:hover::after {
 .swiper-rtl .swiper-button-next:after {
   display: none;
 }
+.swiper.ClientSwiper {
+  padding: 0px !important;
+}
+.ClientSwiper .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 30px !important;
+}

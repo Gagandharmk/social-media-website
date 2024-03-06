@@ -7,6 +7,7 @@ const HowItWork = () => {
       <section
         className="bg-[url('/images/webp/HowItWork.webp')] bg-no-repeat  bg-cover w-full xl:py-[206px]  lg:py-[190px] md:py-[160px] sm:py-[130px] pt-[50px] pb-[30px] "
         id="how-it-work"
+        style={{ backgroundSize: "100% 100%" }}
       >
         <div className=" max-w-[1170px] sm:px-4 px-2 w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 relative">
           <img
