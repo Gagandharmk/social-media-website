@@ -59,7 +59,7 @@ const OurServices = () => {
     <>
       {" "}
       <section className="lg:pt-[194px] lg:pb-[141px] py-[40px] " id="services">
-        <div className=" max-w-[1170px] sm:px-4 px-2 w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 relative">
+        <div className=" max-w-[1170px] px-5  w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 relative">
           <img
             className="hidden lg:block absolute right-[-120px] top-[50px]"
             src="/images/webp/forgroundImg2.webp"

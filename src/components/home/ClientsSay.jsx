@@ -43,7 +43,7 @@ const ClientsSay = () => {
       style={{ backgroundSize: "100% 100%" }}
       id="how-it-work"
     >
-      <div className="max-w-[1170px] sm:px-4 px-2 w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 ">
+      <div className="max-w-[1170px] px-5  w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 ">
         <div className="relative">
           <h2 className="text-5xl text-[#00070E] text-center">
             What Our Clients Say
@@ -53,7 +53,7 @@ const ClientsSay = () => {
             src="/images/webp/forgroundImg3.webp"
             alt=""
           />
-          <p className="text-base text-[#00070E] text-center max-w-[771px] w-full sm:mt-[16px] mt-[8px]">
+          <p className="text-base text-[#00070E] text-center max-w-[771px] w-full sm:mt-[16px] mt-[8px] px-5 ">
             Ipsum integer faucibus eu morbi integer. Tempus in volutpat libero
             mauris neque dolor pellentesque sagittis. Scelerisque tempor auctor
             euismod.

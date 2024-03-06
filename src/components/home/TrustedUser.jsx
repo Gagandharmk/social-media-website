@@ -3,7 +3,7 @@ import React from "react";
 const TrustedUser = () => {
   return (
     <>
-      <section className="lg:pt-[52px] lg:pb-[94px] py-[32px] sm:px-4 px-2  ">
+      <section className="lg:pt-[52px] lg:pb-[94px] py-[32px] px-5   ">
         <div className="trustShadow max-w-[1140px]  w-full mx-auto flex items-center justify-between md:px-[62px] sm:px-[30px] px-[12px] sm:py-[14px] py-2 gap-[12px] sm:gap-0 overflow-hidden rounded-[24px] relative">
           <img
             className="absolute top-[-180px] left-[-200px] -z-50"

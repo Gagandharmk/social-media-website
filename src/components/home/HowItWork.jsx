@@ -9,7 +9,7 @@ const HowItWork = () => {
         id="how-it-work"
         style={{ backgroundSize: "100% 100%" }}
       >
-        <div className=" max-w-[1170px] sm:px-4 px-2 w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 relative">
+        <div className=" max-w-[1170px] px-5  w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 relative">
           <img
             className="hidden lg:block absolute right-[-80px] top-[50px] w-[166px]"
             src="/images/webp/forgroundImg1.webp"

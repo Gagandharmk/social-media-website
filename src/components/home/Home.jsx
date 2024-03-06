@@ -7,6 +7,7 @@ import HowItWork from "./HowItWork";
 import OurServices from "./OurServices";
 import ClientsSay from "./ClientsSay";
 import Faqs from "./Faqs";
+import SuccessMetrics from "./SuccessMetrics";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <OurServices />
       <ClientsSay />
       <Faqs />
+      <SuccessMetrics />
     </>
   );
 };
