@@ -6,6 +6,7 @@ import Benefits from "./Benefits";
 import HowItWork from "./HowItWork";
 import OurServices from "./OurServices";
 import ClientsSay from "./ClientsSay";
+import Faqs from "./Faqs";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <HowItWork />
       <OurServices />
       <ClientsSay />
+      <Faqs />
     </>
   );
 };

@@ -11,6 +11,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { NextIcon, PrevIcon } from "../common/Icon";
+import ButtonSecondary from "../common/ButtonSecondary";
 
 const OurServices = () => {
   const swiperRef = useRef(null);
@@ -57,7 +58,7 @@ const OurServices = () => {
   return (
     <>
       {" "}
-      <section className="lg:pt-[52px] lg:pb-[94px] py-[40px] " id="services">
+      <section className="lg:pt-[194px] lg:pb-[141px] py-[40px] " id="services">
         <div className=" max-w-[1170px] sm:px-4 px-2 w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 relative">
           <img
             className="hidden lg:block absolute right-[-120px] top-[50px]"
@@ -69,13 +70,21 @@ const OurServices = () => {
             src="/images/webp/forgroundImg1.webp"
             alt=""
           />{" "}
-          <div className="relative">
-            <h2 className="text-5xl text-[#00070E]">Our Services</h2>
-            <img
-              className=" absolute lg:left-[-60px] lg:top-[-60px] left-[-40px] top-[-40px] lg:w-[84px] w-[50px]"
-              src="/images/webp/BebefitForground1.webp"
-              alt=""
-            />{" "}
+          <div className="flex md:flex-row flex-col gap-[16px] md:justify-between justify-center items-center w-full">
+            <div className="relative">
+              <h2 className="text-5xl text-[#00070E]">Our Services</h2>
+              <img
+                className=" absolute lg:left-[-60px] lg:top-[-60px] left-[-40px] top-[-40px] lg:w-[84px] w-[50px]"
+                src="/images/webp/BebefitForground1.webp"
+                alt=""
+              />{" "}
+            </div>{" "}
+            <div className="flex items-center gap-3">
+              <ButtonSecondary secondary={"Youtube"} />
+              <ButtonSecondary secondary={"Instagram"} />
+              <ButtonSecondary secondary={"Facebook"} />
+              <ButtonSecondary secondary={"Youtube"} />
+            </div>
           </div>
           <div className="flex max-w-[1172px] w-full items-center justify-center mx-auto">
             <Swiper
@@ -102,11 +111,11 @@ const OurServices = () => {
                   slidesPerView: 1,
                   spaceBetween: 20,
                 },
-                768: {
+                1024: {
                   slidesPerView: 2,
                   spaceBetween: 30,
                 },
-                1024: {
+                1280: {
                   slidesPerView: 3,
                   spaceBetween: 40,
                 },
@@ -115,7 +124,7 @@ const OurServices = () => {
               {BenefitCardsData.map((card, index) => (
                 <SwiperSlide
                   key={index}
-                  className="card flex flex-col items-start rounded-[16px] gridentBorder sm:p-5 p-3 !max-w-[364px]  lg:min-h-[330px] cursor-pointer overflow-hidden hover:bg-none hover:shadow-custom transition duration-[0.3s] ease-in-out "
+                  className="card flex flex-col items-start rounded-[16px] gridentBorder sm:p-5 p-3 !max-w-[364px]  lg:min-h-[340px] cursor-pointer overflow-hidden hover:bg-none hover:shadow-custom transition duration-[0.3s] ease-in-out "
                 >
                   <div className="md:w-fit ">
                     <img src={card.src} alt="Image" />

@@ -72,7 +72,7 @@ const ClientsSay = () => {
           {testimonials.map((testimonial, index) => (
             <SwiperSlide
               key={index}
-              className=" gridentBorder !w-full !max-w-[1172px]  bg-white lg:py-[45px] md:py-[32px] sm:py-[24px] py-[16px] px-2 flex justify-center relative overflow-hidden"
+              className=" gridentBorder !w-full   bg-white lg:py-[45px] md:py-[32px] sm:py-[24px] py-[16px] px-2 flex justify-center relative overflow-hidden"
             >
               <img
                 className="absolute left-[130px] bottom-[40px] -z-0 hidden lg:flex"
