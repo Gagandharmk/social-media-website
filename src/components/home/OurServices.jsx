@@ -99,10 +99,13 @@ const OurServices = () => {
               centeredSlides={true}
               spaceBetween={30}
               loop={true}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
+              // pagination={{
+              //   dynamicBullets: true,
+              // }}
+              // autoplay={{
+              //   delay: 2500,
+              //   disableOnInteraction: false,
+              // }}
               pagination={{
                 clickable: true,
               }}

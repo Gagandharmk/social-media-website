@@ -45,7 +45,7 @@ const HeroSection = () => {
           src="/images/webp/forgroundImg2.webp"
           alt=""
         />{" "}
-        <div className="sticky top-0 left-0 w-full z-40 backdrop-brightness-200 backdrop-blur-sm">
+        <div className="sticky top-0 left-0 w-full z-40  backdrop-blur-sm">
           <Nav showSizeBar={showSizeBar} onClick={handleClick} />
         </div>
         <div className="max-w-[1170px] px-5  xl:py-[206px]  lg:py-[190px] md:py-[160px] sm:py-[130px] pt-[110px] pb-[30px] w-full mx-auto relative z-0">

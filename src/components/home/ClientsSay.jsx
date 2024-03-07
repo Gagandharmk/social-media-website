@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 const ClientsSay = () => {
   // Define an array of client testimonial data
   const testimonials = [
@@ -73,10 +73,15 @@ const ClientsSay = () => {
         <Swiper
           centeredSlides={true}
           spaceBetween={30}
+          loop={true}
           pagination={{
-            dynamicBullets: true,
+            clickable: true,
           }}
-          modules={[Pagination]}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay, Pagination]}
           className="ClientSwiper"
         >
           {testimonials.map((testimonial, index) => (
