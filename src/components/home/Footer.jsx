@@ -10,10 +10,15 @@ const Footer = () => {
   return (
     <>
       <section
-        className="bg-[url('/images/webp/HowItWork.webp')] bg-no-repeat  bg-cover w-full xl:py-[206px]  lg:py-[190px] md:py-[160px] sm:py-[130px] pt-[50px] pb-[30px] "
+        className="bg-[url('/images/webp/Footer-bg.webp')] bg-no-repeat bg-top !bg-cover w-full xl:pt-[206px]  lg:pt-[190px] md:pt-[160px] sm:pt-[130px] pt-[50px] pb-[30px] relative "
         id="how-it-work"
         style={{ backgroundSize: "100% 100%" }}
       >
+        <img
+          className="hidden lg:block absolute right-[25px] top-[67px] "
+          src="/images/webp/forgroundImg2.webp"
+          alt=""
+        />{" "}
         <div className=" max-w-[1170px] px-4  w-full mx-auto flex flex-col md:flex-row  justify-between items-center lg:gap-[52px] sm:gap-[32px] gap-5 relative">
           <div className="flex flex-col gap-4 max-w-[301px] items-center md:items-start text-center md:text-left w-full">
             <h3 className="text-4xl gradient-text">Logo</h3>

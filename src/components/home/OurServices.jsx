@@ -12,6 +12,7 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { NextIcon, PrevIcon } from "../common/Icon";
 import ButtonSecondary from "../common/ButtonSecondary";
+import ServiceButton from "../common/ServiceButron";
 
 const OurServices = () => {
   const swiperRef = useRef(null);
@@ -86,7 +87,10 @@ const OurServices = () => {
               <ButtonSecondary secondary={"Youtube"} />
               <ButtonSecondary secondary={"Instagram"} />
               <ButtonSecondary secondary={"Facebook"} />
-              <ButtonSecondary secondary={"Youtube"} />
+              <ServiceButton
+                secondary={"Other"}
+                dropdownItems={["Snapchat", "WhatsApp"]}
+              />
             </div>
           </div>
           <div className="flex max-w-[1172px] w-full items-center justify-center mx-auto">

@@ -88,7 +88,7 @@ const ContactUs = () => {
             method="post"
             className="xl:max-w-[642px] lg:max-w-[550px] max-w-[500px] w-full"
           >
-            <div className="  w-full flex flex-col  lg:gap-6 mg:gap-5 sm:gap-3 gap-2">
+            <div className="  sm:max-w-full flex flex-col max-w-[400px] lg:gap-6 mg:gap-5 sm:gap-3 gap-2 sm:mx-0 mx-auto">
               <div className="flex lg:gap-5 mg:gap-4 gap-3 sm:flex-row flex-col">
                 <CommonInput
                   type={"text"}

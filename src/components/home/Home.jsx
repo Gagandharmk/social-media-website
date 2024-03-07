@@ -24,8 +24,8 @@ const Home = () => {
       <Faqs />
       <SuccessMetrics />
       <OurBlogs />
-      {/* <ContactUs />
-      <Footer /> */}
+      <ContactUs />
+      <Footer />
     </>
   );
 };
