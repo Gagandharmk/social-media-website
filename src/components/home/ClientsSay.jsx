@@ -39,17 +39,27 @@ const ClientsSay = () => {
 
   return (
     <section
-      className="bg-[url('/images/webp/HowItWork.webp')] bg-no-repeat  bg-center w-full xl:py-[206px] lg:py-[190px] md:py-[160px] sm:py-[130px] pt-[50px] pb-[30px]"
+      className="bg-[url('/images/webp/HowItWork.webp')] bg-no-repeat  bg-center w-full xl:py-[270px] lg:py-[190px] md:py-[160px] sm:py-[130px] pt-[50px] pb-[30px] relative"
       style={{ backgroundSize: "100% 100%" }}
       id="testimonials"
     >
+      <img
+        className="hidden lg:block absolute right-[20px] top-[160px] w-[166px]  "
+        src="/images/webp/forgroundImg1.webp"
+        alt=""
+      />{" "}
+      <img
+        className="hidden lg:block absolute left-[40px] bottom-[70px]  w-[161px]  "
+        src="/images/webp/forgroundImg2.webp"
+        alt=""
+      />{" "}
       <div className="max-w-[1170px] px-5  w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 ">
         <div className="relative">
           <h2 className="text-5xl text-[#00070E] text-center">
             What Our Clients Say
           </h2>{" "}
           <img
-            class="absolute lg:right-[calc(50%-351px)] lg:top-[-30px] right-[calc(50%-219px)] top-[-20px] lg:w-[153px] w-[100px]"
+            class="absolute lg:right-[calc(50%-351px)] lg:top-[-30px] right-[calc(50%-219px)] top-[-20px] lg:w-[153px] w-[100px] sm:block hidden"
             src="/images/webp/forgroundImg3.webp"
             alt=""
           />

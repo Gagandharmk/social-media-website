@@ -33,7 +33,7 @@ const Disclosure = () => {
   ];
 
   return (
-    <div className="max-w-[782px] w-full flex flex-col gap-4">
+    <div className="max-w-[782px] w-full flex flex-col sm:gap-4 gap-2">
       {disclosures.map((item, index) => (
         <div
           key={index}

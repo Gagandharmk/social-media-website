@@ -21,18 +21,21 @@ const Faqs = () => {
   return (
     <>
       {" "}
-      <section className="lg:pt-[194px] lg:pb-[141px] py-[40px] " id="services">
+      <section
+        className="lg:pt-[194px] lg:pb-[141px] py-[40px] relative"
+        id="services"
+      >
+        <img
+          className="hidden lg:block absolute right-[25px] top-[67px] -z-30"
+          src="/images/webp/forgroundImg2.webp"
+          alt=""
+        />{" "}
+        <img
+          className="hidden lg:block absolute left-[50px] bottom-[60px] -z-30"
+          src="/images/webp/forgroundImg1.webp"
+          alt=""
+        />{" "}
         <div className=" max-w-[1170px] px-5  w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 relative">
-          <img
-            className="hidden lg:block absolute right-[-120px] top-[50px]"
-            src="/images/webp/forgroundImg2.webp"
-            alt=""
-          />{" "}
-          <img
-            className="hidden lg:block absolute left-[-80px] bottom-[-85px]"
-            src="/images/webp/forgroundImg1.webp"
-            alt=""
-          />{" "}
           <div className="flex  flex-col gap-[16px]  justify-center items-center w-full">
             <div className="relative">
               <h2 className="text-5xl text-[#00070E] text-center">

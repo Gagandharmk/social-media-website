@@ -3,18 +3,21 @@ import { SaveIcon } from "../common/Icon";
 
 const OurBlogs = () => {
   return (
-    <section className="lg:pt-[52px] lg:pb-[94px] py-[40px] " id="benefits">
+    <section
+      className="lg:pt-[52px] lg:pb-[94px] py-[40px] relative"
+      id="benefits"
+    >
+      <img
+        className="hidden lg:block absolute right-[25px] top-[67px] -z-30"
+        src="/images/webp/forgroundImg2.webp"
+        alt=""
+      />{" "}
+      <img
+        className="hidden lg:block absolute left-[50px] bottom-[60px] -z-30"
+        src="/images/webp/forgroundImg1.webp"
+        alt=""
+      />{" "}
       <div className=" max-w-[1170px] sm:px-4 px-2 w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 relative">
-        <img
-          className="hidden lg:block absolute right-[-120px] top-[50px]"
-          src="/images/webp/forgroundImg2.webp"
-          alt=""
-        />
-        <img
-          className="hidden lg:block absolute left-[-80px] bottom-[-85px]"
-          src="/images/webp/forgroundImg1.webp"
-          alt=""
-        />
         <div className="relative">
           <h2 className="text-5xl text-[#00070E]">Our Blogs</h2>
           <img

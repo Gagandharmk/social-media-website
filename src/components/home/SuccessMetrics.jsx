@@ -4,21 +4,21 @@ const SuccessMetrics = () => {
   return (
     <>
       <section
-        className="bg-[url('/images/webp/HowItWork.webp')] bg-no-repeat  bg-cover w-full xl:py-[206px]  lg:py-[190px] md:py-[160px] sm:py-[130px] pt-[50px] pb-[30px] "
+        className="bg-[url('/images/webp/HowItWork.webp')] bg-no-repeat  bg-cover w-full xl:py-[267px]  lg:py-[190px] md:py-[160px] sm:py-[130px] pt-[50px] pb-[30px] relative "
         id="how-it-work"
         style={{ backgroundSize: "100% 100%" }}
       >
+        <img
+          className="hidden lg:block absolute right-[20px] top-[160px] w-[166px]  "
+          src="/images/webp/forgroundImg1.webp"
+          alt=""
+        />{" "}
+        <img
+          className="hidden lg:block absolute left-[40px] bottom-[70px]  w-[161px]  "
+          src="/images/webp/forgroundImg2.webp"
+          alt=""
+        />{" "}
         <div className=" max-w-[1170px] px-4  w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 relative">
-          <img
-            className="hidden lg:block absolute right-[-80px] top-[-50px] w-[166px]"
-            src="/images/webp/forgroundImg1.webp"
-            alt=""
-          />{" "}
-          <img
-            className="hidden lg:block absolute left-[-80px] bottom-[-140px]  w-[161px]"
-            src="/images/webp/forgroundImg2.webp"
-            alt=""
-          />{" "}
           <div>
             <h2 className="text-5xl text-[#00070E]">Success Metrics</h2>
           </div>
