@@ -10,19 +10,19 @@ const Nav = () => {
       </div>
       <div className="flex gap-[130px] ">
         <ul className="hidden justify-center items-center gap-[32px] lg:flex">
-          <li className="text-base text-nowrap  ">
+          <li className="text-base text-nowrap hover:scale-110 transition ">
             <Link href="#home">Home</Link>
           </li>
-          <li className="text-base text-nowrap">
+          <li className="text-base text-nowrap hover:scale-110 transition">
             <Link href="#benefits">Benefits</Link>
           </li>
-          <li className="text-base text-nowrap">
+          <li className="text-base text-nowrap hover:scale-110 transition">
             <Link href="#how-it-work">How It Works</Link>
           </li>
-          <li className="text-base text-nowrap">
+          <li className="text-base text-nowrap hover:scale-110 transition">
             <Link href="#services">Service</Link>
           </li>
-          <li className="text-base text-nowrap">
+          <li className="text-base text-nowrap hover:scale-110 transition">
             <Link href="#testimonials">Testimonials</Link>
           </li>
         </ul>

@@ -21,16 +21,32 @@ const Footer = () => {
         />{" "}
         <div className=" max-w-[1170px] px-4  w-full mx-auto flex flex-col md:flex-row  justify-between items-center lg:gap-[52px] sm:gap-[32px] gap-5 relative">
           <div className="flex flex-col gap-4 max-w-[301px] items-center md:items-start text-center md:text-left w-full">
-            <h3 className="text-4xl gradient-text">Logo</h3>
+            <a href="#" className="text-4xl gradient-text">
+              Logo
+            </a>
             <p className="text-base text-[#00070E]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut
               felis molestie, placerat risus at, feugiat sem
             </p>
             <div className="flex gap-4 items-center">
-              <FacebookIcon />
-              <InstagramIcon />
-              <TwiterIcom />
-              <YoutubeIcon />
+              <a
+                href="/www.facebook.com"
+                className="hover:scale-110 transition"
+              >
+                <FacebookIcon />
+              </a>
+              <a
+                href="/www.instagram.com"
+                className="hover:scale-110 transition"
+              >
+                <InstagramIcon />
+              </a>
+              <a href="/www.twiter.com" className="hover:scale-110 transition">
+                <TwiterIcom />
+              </a>
+              <a href="/www.youtube.com" className="hover:scale-110 transition">
+                <YoutubeIcon />
+              </a>
             </div>
           </div>
 
