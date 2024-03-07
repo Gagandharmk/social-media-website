@@ -95,14 +95,14 @@ const OurServices = () => {
           </div>
           <div className="flex max-w-[1172px] w-full items-center justify-center mx-auto">
             <Swiper
-              ref={swiperRef}
+              // ref={swiperRef}
               centeredSlides={true}
               spaceBetween={30}
-              // loop={true}
-              // autoplay={{
-              //   delay: 2500,
-              //   disableOnInteraction: false,
-              // }}
+              loop={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
               pagination={{
                 clickable: true,
               }}
@@ -131,7 +131,7 @@ const OurServices = () => {
               {BenefitCardsData.map((card, index) => (
                 <SwiperSlide
                   key={index}
-                  className="card flex flex-col items-start rounded-[16px] gridentBorder sm:p-5 p-3 !max-w-[364px]  lg:min-h-[340px] cursor-pointer overflow-hidden hover:bg-none hover:shadow-custom transition duration-[0.3s] ease-in-out "
+                  className="card flex flex-col items-start rounded-[16px] gridentBorder sm:p-5 p-3 !max-w-[364px] w-full lg:min-h-[340px] cursor-pointer overflow-hidden hover:bg-none hover:shadow-custom transition duration-[0.3s] ease-in-out "
                 >
                   <div className="md:w-fit ">
                     <img src={card.src} alt="Image" />

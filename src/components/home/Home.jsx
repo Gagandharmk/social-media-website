@@ -11,16 +11,18 @@ import SuccessMetrics from "./SuccessMetrics";
 import OurBlogs from "./OurBlogs";
 import ContactUs from "./ContactUs";
 import Footer from "./Footer";
+import Sidebar from "./Sidebar";
 
 const Home = () => {
   return (
     <>
       <HeroSection />
+
       <TrustedUser />
       <Benefits />
       <HowItWork />
-      <OurServices />
-      <ClientsSay />
+      {/* <OurServices /> */}
+      {/* <ClientsSay /> */}
       <Faqs />
       <SuccessMetrics />
       <OurBlogs />

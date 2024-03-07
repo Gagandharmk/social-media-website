@@ -1,8 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import ButtonPrimary from "./ButtonPrimary";
+import { Hamberger, HambergerCancel } from "./Icon";
 
-const Nav = () => {
+const Nav = ({ onClick, showSizeBar }) => {
   return (
     <nav className="w-full max-w-[1172px]  mx-auto flex justify-between items-center  bg-transparent py-[18px]  px-4">
       <div className="text-4xl  gradient-text cursor-pointer ">
@@ -26,7 +27,18 @@ const Nav = () => {
             <Link href="#testimonials">Testimonials</Link>
           </li>
         </ul>
-        <ButtonPrimary primary={"Contact Us"} />
+
+        <div className="flex justify-center items-center gap-x-5">
+          <ButtonPrimary primary={"Contact Us"} />
+          <div
+            className={`flex mx-4 lg:hidden cursor-pointer ${
+              showSizeBar ? "!hidden" : ""
+            }`}
+            onClick={onClick}
+          >
+            {showSizeBar ? <HambergerCancel /> : <Hamberger />}
+          </div>
+        </div>
       </div>
     </nav>
   );

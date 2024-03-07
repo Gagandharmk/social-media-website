@@ -1898,3 +1898,30 @@ export const YoutubeIcon = () => (
     </svg>
   </>
 );
+
+export const HambergerCancel = () => (
+  <>
+    <svg class="h-8 w-8 fill-current" viewBox="0 0 24 24">
+      <path
+        d="M6 18L18 6M6 6l12 12"
+        stroke="gray"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </>
+);
+export const Hamberger = () => (
+  <>
+    <svg class="h-8 w-8 fill-current" viewBox="0 0 24 24">
+      <path
+        d="M4 6H20M4 12H20M4 18H20"
+        stroke="gray"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </>
+);
