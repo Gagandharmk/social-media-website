@@ -59,7 +59,7 @@ const ClientsSay = () => {
             What Our Clients Say
           </h2>{" "}
           <img
-            class="absolute lg:right-[calc(50%-351px)] lg:top-[-30px] right-[calc(50%-219px)] top-[-20px] lg:w-[153px] w-[100px] sm:block hidden"
+            className="absolute lg:right-[calc(50%-351px)] lg:top-[-30px] right-[calc(50%-219px)] top-[-20px] lg:w-[153px] w-[100px] sm:block hidden"
             src="/images/webp/forgroundImg3.webp"
             alt=""
           />

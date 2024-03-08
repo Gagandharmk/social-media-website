@@ -2,7 +2,7 @@ const CommonInput = ({
   placeholder,
   type,
   id,
-  isActive,
+  isactive,
   value,
   onChange,
   onInputChange,
@@ -10,12 +10,12 @@ const CommonInput = ({
   return (
     <div
       className={`flex items-center w-full text-lg font-urbanist whitespace-nowrap bg-white rounded-md px-4 border ${
-        isActive ? " bg-white shadow-custom" : ""
+        isactive ? "bg-white shadow-custom" : ""
       }`}
     >
       <input
         className={`text-lg h-[38px] sm:h-12 lg:h-[58px] font-urbanist outline-none w-full pr-2 bg-transparent placeholder:text-[#848484] text-black appearance-none ${
-          isActive ? "placeholder:!text-[#010710] !text-[#010710]" : ""
+          isactive ? "placeholder:!text-[#010710] !text-[#010710]" : ""
         }`}
         type={type}
         id={id}

@@ -94,7 +94,7 @@ const ContactUs = () => {
                   type={"text"}
                   placeholder={"First name"}
                   id="fName"
-                  isActive={activeInput === "fName" || inputValues.fName !== ""}
+                  isactive={activeInput === "fName" || inputValues.fName !== ""}
                   onChange={handleInputClick}
                   onInputChange={handleInputChange}
                   value={inputValues.fName}
@@ -103,7 +103,7 @@ const ContactUs = () => {
                   type={"text"}
                   placeholder={"Last name"}
                   id="lName"
-                  isActive={activeInput === "lName" || inputValues.lName !== ""}
+                  isactive={activeInput === "lName" || inputValues.lName !== ""}
                   onChange={handleInputClick}
                   onInputChange={handleInputChange}
                   value={inputValues.lName}
@@ -114,7 +114,7 @@ const ContactUs = () => {
                   type={"email"}
                   placeholder={"Email"}
                   id="email"
-                  isActive={activeInput === "email" || inputValues.email !== ""}
+                  isactive={activeInput === "email" || inputValues.email !== ""}
                   onChange={handleInputClick}
                   onInputChange={handleInputChange}
                   value={inputValues.email}
@@ -123,7 +123,7 @@ const ContactUs = () => {
                   type={"number"}
                   placeholder={"Phone no."}
                   id="pNumber"
-                  isActive={
+                  isactive={
                     activeInput === "pNumber" || inputValues.pNumber !== ""
                   }
                   onChange={handleInputClick}
@@ -136,7 +136,7 @@ const ContactUs = () => {
                   type={"text"}
                   placeholder={"City"}
                   id="city"
-                  isActive={activeInput === "city" || inputValues.city !== ""}
+                  isactive={activeInput === "city" || inputValues.city !== ""}
                   onChange={handleInputClick}
                   onInputChange={handleInputChange}
                   value={inputValues.city}
@@ -145,7 +145,7 @@ const ContactUs = () => {
                   type={"number"}
                   placeholder={"Pin code"}
                   id="pin"
-                  isActive={activeInput === "pin" || inputValues.pin !== ""}
+                  isactive={activeInput === "pin" || inputValues.pin !== ""}
                   onChange={handleInputClick}
                   onInputChange={handleInputChange}
                   value={inputValues.pin}
@@ -163,17 +163,10 @@ const ContactUs = () => {
                     id="message"
                     value={inputValues.message}
                     placeholder="Message"
-                    className={`text-lg font-urbanist outline-none w-full pr-2 bg-transparent placeholder-text-[#848484] text-black appearance-none resize-none ${
-                      activeInput === "message" || inputValues.message !== ""
-                        ? "placeholder-text-[#010710] text-[#010710]"
-                        : ""
-                    }`}
-                    isActive={
-                      activeInput === "message" || inputValues.message !== ""
-                    }
+                    className={`text-lg font-urbanist outline-none w-full pr-2 bg-transparent placeholder-text-[#848484] text-black appearance-none resize-none`}
                     onChange={handleInputChange}
                     onClick={() => handleInputClick("message")}
-                    rows={"4"}
+                    rows={4}
                     required
                   />
                 </div>

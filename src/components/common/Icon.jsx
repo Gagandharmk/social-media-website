@@ -13,7 +13,7 @@ export const OnlineIcon = () => (
           height="72"
           rx="36"
           fill="url(#paint0_linear_2005_15)"
-          fill-opacity="0.16"
+          fillOpacity="0.16"
         />
         <path
           d="M18.3438 49.2096C18.3438 50.1333 19.0886 50.8782 20.0123 50.8782H26.314C26.1874 50.2151 26.1204 49.5224 26.1204 48.8223C26.1204 42.6397 31.1558 37.6042 37.3384 37.6042C43.5358 37.6042 48.5712 42.6397 48.5712 48.8223C48.5712 49.5224 48.5042 50.2151 48.3776 50.8782H54.6719C55.5955 50.8782 56.3404 50.1333 56.3404 49.2096V27.809H18.3438V49.2096ZM23.1255 29.4254H51.5556C51.9669 29.4254 52.3004 29.7586 52.3004 30.1703C52.3004 30.582 51.9669 30.9152 51.5556 30.9152H23.1255C22.7141 30.9152 22.3806 30.582 22.3806 30.1703C22.3806 29.7586 22.7141 29.4254 23.1255 29.4254ZM23.1255 33.2117H51.5556C51.9669 33.2117 52.3004 33.5448 52.3004 33.9565C52.3004 34.3683 51.9669 34.7014 51.5556 34.7014H23.1255C22.7141 34.7014 22.3806 34.3683 22.3806 33.9565C22.3806 33.5448 22.7141 33.2117 23.1255 33.2117Z"
@@ -100,9 +100,9 @@ export const OnlineIcon = () => (
           width="176"
           height="176"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="26" />
           <feComposite
             in2="SourceAlpha"
@@ -124,8 +124,8 @@ export const OnlineIcon = () => (
           y2="72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_2005_15"
@@ -135,8 +135,8 @@ export const OnlineIcon = () => (
           y2="61.1863"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_2005_15"
@@ -146,8 +146,8 @@ export const OnlineIcon = () => (
           y2="32.1804"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_2005_15"
@@ -157,8 +157,8 @@ export const OnlineIcon = () => (
           y2="46.3637"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_2005_15"
@@ -168,8 +168,8 @@ export const OnlineIcon = () => (
           y2="57.0001"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_2005_15"
@@ -179,8 +179,8 @@ export const OnlineIcon = () => (
           y2="52.4439"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_2005_15"
@@ -190,8 +190,8 @@ export const OnlineIcon = () => (
           y2="54.5777"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_2005_15"
@@ -201,8 +201,8 @@ export const OnlineIcon = () => (
           y2="57"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_2005_15"
@@ -212,8 +212,8 @@ export const OnlineIcon = () => (
           y2="54.5733"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_2005_15"
@@ -223,8 +223,8 @@ export const OnlineIcon = () => (
           y2="46.7666"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_2005_15"
@@ -234,8 +234,8 @@ export const OnlineIcon = () => (
           y2="41.0086"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_2005_15"
@@ -245,8 +245,8 @@ export const OnlineIcon = () => (
           y2="58.3706"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_2005_15"
@@ -256,8 +256,8 @@ export const OnlineIcon = () => (
           y2="58.3743"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_2005_15"
@@ -267,8 +267,8 @@ export const OnlineIcon = () => (
           y2="41.8959"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_2005_15"
@@ -278,8 +278,8 @@ export const OnlineIcon = () => (
           y2="52.4436"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_2005_15"
@@ -289,8 +289,8 @@ export const OnlineIcon = () => (
           y2="46.7715"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_2005_15"
@@ -300,8 +300,8 @@ export const OnlineIcon = () => (
           y2="41.8955"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_2005_15"
@@ -311,8 +311,8 @@ export const OnlineIcon = () => (
           y2="46.3638"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_2005_15"
@@ -322,8 +322,8 @@ export const OnlineIcon = () => (
           y2="41.0085"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_2005_15"
@@ -333,8 +333,8 @@ export const OnlineIcon = () => (
           y2="24.0329"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
       </defs>
     </svg>
@@ -356,9 +356,9 @@ export const CalendarIcon = () => (
           height="72"
           rx="36"
           fill="url(#paint0_linear_176_9912)"
-          fill-opacity="0.16"
+          fillOpacity="0.16"
         />
-        <g clip-path="url(#clip0_176_9912)">
+        <g clipPath="url(#clip0_176_9912)">
           <path
             d="M26.8125 24.1055C26.0435 24.1055 25.418 24.7311 25.418 25.5001C25.418 26.269 26.0435 26.8946 26.8125 26.8946C27.5815 26.8946 28.207 26.269 28.207 25.5001C28.207 24.7311 27.5815 24.1055 26.8125 24.1055Z"
             fill="url(#paint1_linear_176_9912)"
@@ -385,9 +385,9 @@ export const CalendarIcon = () => (
           width="140.073"
           height="140.073"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="17.0182" />
           <feComposite
             in2="SourceAlpha"
@@ -409,8 +409,8 @@ export const CalendarIcon = () => (
           y2="72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_176_9912"
@@ -420,8 +420,8 @@ export const CalendarIcon = () => (
           y2="26.8946"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_176_9912"
@@ -431,8 +431,8 @@ export const CalendarIcon = () => (
           y2="43.5664"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_176_9912"
@@ -442,8 +442,8 @@ export const CalendarIcon = () => (
           y2="26.8945"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_176_9912"
@@ -453,8 +453,8 @@ export const CalendarIcon = () => (
           y2="67.7733"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <clipPath id="clip0_176_9912">
           <rect
@@ -484,7 +484,7 @@ export const ReportIcon = () => (
           height="72"
           rx="36"
           fill="url(#paint0_linear_176_9953)"
-          fill-opacity="0.16"
+          fillOpacity="0.16"
         />
         <path
           d="M18.7135 28.6029C16.2853 28.8968 14.1636 30.1891 12.7617 32.057L18.7135 35.8046V28.6029Z"
@@ -539,9 +539,9 @@ export const ReportIcon = () => (
           width="140.073"
           height="140.073"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="17.0182" />
           <feComposite
             in2="SourceAlpha"
@@ -563,8 +563,8 @@ export const ReportIcon = () => (
           y2="72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_176_9953"
@@ -574,8 +574,8 @@ export const ReportIcon = () => (
           y2="34.4721"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_176_9953"
@@ -585,8 +585,8 @@ export const ReportIcon = () => (
           y2="36.5279"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_176_9953"
@@ -596,8 +596,8 @@ export const ReportIcon = () => (
           y2="45.2031"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_176_9953"
@@ -607,8 +607,8 @@ export const ReportIcon = () => (
           y2="47.6325"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_176_9953"
@@ -618,8 +618,8 @@ export const ReportIcon = () => (
           y2="40.6208"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_176_9953"
@@ -629,8 +629,8 @@ export const ReportIcon = () => (
           y2="23.8303"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_176_9953"
@@ -640,8 +640,8 @@ export const ReportIcon = () => (
           y2="27.9369"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_176_9953"
@@ -651,8 +651,8 @@ export const ReportIcon = () => (
           y2="22.3938"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_176_9953"
@@ -662,8 +662,8 @@ export const ReportIcon = () => (
           y2="60.9659"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_176_9953"
@@ -673,8 +673,8 @@ export const ReportIcon = () => (
           y2="30.8619"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_176_9953"
@@ -684,8 +684,8 @@ export const ReportIcon = () => (
           y2="50.8892"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
       </defs>
     </svg>
@@ -707,7 +707,7 @@ export const BusinessIcon = () => (
           height="72"
           rx="36"
           fill="url(#paint0_linear_176_9901)"
-          fill-opacity="0.16"
+          fillOpacity="0.16"
         />
         <path
           d="M29.4467 35.1556C29.0078 35.2791 28.5456 35.3466 28.0679 35.3466C27.59 35.3466 27.1278 35.2791 26.6889 35.1556L23.5842 36.5653L23.1016 39.028H33.0342L32.5516 36.5653L29.4467 35.1556Z"
@@ -730,9 +730,9 @@ export const BusinessIcon = () => (
           width="176"
           height="176"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="26" />
           <feComposite
             in2="SourceAlpha"
@@ -754,8 +754,8 @@ export const BusinessIcon = () => (
           y2="72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_176_9901"
@@ -765,8 +765,8 @@ export const BusinessIcon = () => (
           y2="41.7728"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_176_9901"
@@ -776,8 +776,8 @@ export const BusinessIcon = () => (
           y2="32.6513"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_176_9901"
@@ -787,8 +787,8 @@ export const BusinessIcon = () => (
           y2="59.7943"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
       </defs>
     </svg>
@@ -810,7 +810,7 @@ export const CampaignsIcon = () => (
           height="72"
           rx="36"
           fill="url(#paint0_linear_176_9932)"
-          fill-opacity="0.16"
+          fillOpacity="0.16"
         />
         <path
           d="M54.6352 38.9814V34.0529L42.709 38.0276V42.9151L54.6352 46.8905V41.9656C55.0306 41.9656 55.4097 41.8086 55.6893 41.529C55.9688 41.2495 56.1259 40.8703 56.1259 40.4749C56.1259 40.0796 55.9688 39.7004 55.6893 39.4209C55.4097 39.1413 55.0306 38.9843 54.6352 38.9843V38.9814Z"
@@ -873,9 +873,9 @@ export const CampaignsIcon = () => (
           width="140.073"
           height="140.073"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="17.0182" />
           <feComposite
             in2="SourceAlpha"
@@ -897,8 +897,8 @@ export const CampaignsIcon = () => (
           y2="72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_176_9932"
@@ -908,8 +908,8 @@ export const CampaignsIcon = () => (
           y2="47.4439"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_176_9932"
@@ -919,8 +919,8 @@ export const CampaignsIcon = () => (
           y2="31.0457"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_176_9932"
@@ -930,8 +930,8 @@ export const CampaignsIcon = () => (
           y2="26.3127"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_176_9932"
@@ -941,8 +941,8 @@ export const CampaignsIcon = () => (
           y2="24.8191"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_176_9932"
@@ -952,8 +952,8 @@ export const CampaignsIcon = () => (
           y2="28.5164"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_176_9932"
@@ -963,8 +963,8 @@ export const CampaignsIcon = () => (
           y2="35.8099"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_176_9932"
@@ -974,8 +974,8 @@ export const CampaignsIcon = () => (
           y2="48.1528"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_176_9932"
@@ -985,8 +985,8 @@ export const CampaignsIcon = () => (
           y2="42.7081"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_176_9932"
@@ -996,8 +996,8 @@ export const CampaignsIcon = () => (
           y2="58.242"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_176_9932"
@@ -1007,8 +1007,8 @@ export const CampaignsIcon = () => (
           y2="18.6926"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_176_9932"
@@ -1018,8 +1018,8 @@ export const CampaignsIcon = () => (
           y2="31.755"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_176_9932"
@@ -1029,8 +1029,8 @@ export const CampaignsIcon = () => (
           y2="44.9139"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_176_9932"
@@ -1040,8 +1040,8 @@ export const CampaignsIcon = () => (
           y2="41.2174"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
       </defs>
     </svg>
@@ -1063,9 +1063,9 @@ export const AdvertiseIcon = () => (
           height="72"
           rx="36"
           fill="url(#paint0_linear_176_9972)"
-          fill-opacity="0.16"
+          fillOpacity="0.16"
         />
-        <g clip-path="url(#clip0_176_9972)">
+        <g clipPath="url(#clip0_176_9972)">
           <path
             d="M40.7582 36C40.7582 35.124 40.048 34.4138 39.172 34.4138H38.3789V37.5862H39.172C40.048 37.5862 40.7582 36.8761 40.7582 36Z"
             fill="url(#paint1_linear_176_9972)"
@@ -1116,9 +1116,9 @@ export const AdvertiseIcon = () => (
           width="140.073"
           height="140.073"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="17.0182" />
           <feComposite
             in2="SourceAlpha"
@@ -1140,8 +1140,8 @@ export const AdvertiseIcon = () => (
           y2="72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_176_9972"
@@ -1151,8 +1151,8 @@ export const AdvertiseIcon = () => (
           y2="36.7119"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_176_9972"
@@ -1162,8 +1162,8 @@ export const AdvertiseIcon = () => (
           y2="30.5743"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_176_9972"
@@ -1173,8 +1173,8 @@ export const AdvertiseIcon = () => (
           y2="27.9211"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_176_9972"
@@ -1184,8 +1184,8 @@ export const AdvertiseIcon = () => (
           y2="48.0886"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_176_9972"
@@ -1195,8 +1195,8 @@ export const AdvertiseIcon = () => (
           y2="35.5995"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_176_9972"
@@ -1206,8 +1206,8 @@ export const AdvertiseIcon = () => (
           y2="30.5743"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_176_9972"
@@ -1217,8 +1217,8 @@ export const AdvertiseIcon = () => (
           y2="45.4937"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_176_9972"
@@ -1228,8 +1228,8 @@ export const AdvertiseIcon = () => (
           y2="45.4323"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_176_9972"
@@ -1239,8 +1239,8 @@ export const AdvertiseIcon = () => (
           y2="58.9968"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_176_9972"
@@ -1250,8 +1250,8 @@ export const AdvertiseIcon = () => (
           y2="51.8862"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <clipPath id="clip0_176_9972">
           <rect
@@ -1280,14 +1280,14 @@ export const CheckedIcon = () => (
           height="32"
           rx="16"
           fill="url(#paint0_linear_176_11824)"
-          fill-opacity="0.2"
+          fillOpacity="0.2"
         />
         <path
           d="M7 16.76L10.6 20.36M15.64 14.6L19.24 11M12.76 16.76L16.36 20.36L25 11"
           stroke="url(#paint1_linear_176_11824)"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -1298,9 +1298,9 @@ export const CheckedIcon = () => (
           width="152"
           height="152"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="30" />
           <feComposite
             in2="SourceAlpha"
@@ -1322,8 +1322,8 @@ export const CheckedIcon = () => (
           y2="32"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_176_11824"
@@ -1333,8 +1333,8 @@ export const CheckedIcon = () => (
           y2="25.554"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
       </defs>
     </svg>
@@ -1361,9 +1361,9 @@ export const PrevIcon = () => (
       <path
         d="M24 29L16 21L24 13"
         stroke="url(#paint1_linear_176_14709)"
-        stroke-width="3"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -1374,8 +1374,8 @@ export const PrevIcon = () => (
           y2="42"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_176_14709"
@@ -1385,8 +1385,8 @@ export const PrevIcon = () => (
           y2="22.4743"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
       </defs>
     </svg>
@@ -1420,9 +1420,9 @@ export const NextIcon = () => (
       <path
         d="M18 29L26 21L18 13"
         stroke="white"
-        stroke-width="3"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -1433,8 +1433,8 @@ export const NextIcon = () => (
           y2="42"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_176_14705"
@@ -1444,8 +1444,8 @@ export const NextIcon = () => (
           y2="42"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
       </defs>
     </svg>
@@ -1478,8 +1478,8 @@ export const NotaionIcon = () => (
         y2="39.6885"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FE5B3A" />
-        <stop offset="1" stop-color="#FC2A64" />
+        <stop stopColor="#FE5B3A" />
+        <stop offset="1" stopColor="#FC2A64" />
       </linearGradient>
     </defs>
   </svg>
@@ -1506,8 +1506,8 @@ export const PlusIcon = () => (
           y2="16"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
       </defs>
     </svg>
@@ -1535,8 +1535,8 @@ export const MinusIcon = () => (
           y2="3.81356"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
       </defs>
     </svg>
@@ -1571,9 +1571,9 @@ export const SaveIcon = () => (
         d="M16.166 29.5V16.5C16.166 15.3954 17.0614 14.5 18.166 14.5H25.8327C26.9373 14.5 27.8327 15.3954 27.8327 16.5V29.5L23.0809 26.4453C22.422 26.0217 21.5767 26.0217 20.9178 26.4453L16.166 29.5Z"
         fill="white"
         stroke="white"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -1584,8 +1584,8 @@ export const SaveIcon = () => (
           y2="44"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_176_13724"
@@ -1595,8 +1595,8 @@ export const SaveIcon = () => (
           y2="44"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
       </defs>
     </svg>
@@ -1619,7 +1619,7 @@ export const FacebookIcon = () => (
           height="32"
           rx="16"
           fill="url(#paint0_linear_176_13786)"
-          fill-opacity="0.2"
+          fillOpacity="0.2"
         />
         <path
           d="M16.7745 23.9249V17.3468H19.4071L19.7984 14.7713H16.7745V13.1308C16.7745 12.3876 17.0202 11.8788 18.2855 11.8788H19.8889V9.58252C19.1091 9.51189 18.3246 9.47818 17.54 9.48059C15.2131 9.48059 13.6154 10.6781 13.6154 12.8764V14.7665H11V17.342H13.6212V23.9249H16.7745Z"
@@ -1634,9 +1634,9 @@ export const FacebookIcon = () => (
           width="632"
           height="632"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="150" />
           <feComposite
             in2="SourceAlpha"
@@ -1658,8 +1658,8 @@ export const FacebookIcon = () => (
           y2="32.4805"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_176_13786"
@@ -1669,8 +1669,8 @@ export const FacebookIcon = () => (
           y2="17.494"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
       </defs>
     </svg>
@@ -1693,7 +1693,7 @@ export const InstagramIcon = () => (
           height="32"
           rx="16"
           fill="url(#paint0_linear_176_13788)"
-          fill-opacity="0.2"
+          fillOpacity="0.2"
         />
         <path
           d="M16.3308 13.7014C14.617 13.7014 13.2184 15.1 13.2184 16.8138C13.2184 18.5276 14.617 19.9262 16.3308 19.9262C18.0446 19.9262 19.4432 18.5276 19.4432 16.8138C19.4432 15.1 18.0446 13.7014 16.3308 13.7014ZM25.6656 16.8138C25.6656 15.5249 25.6773 14.2477 25.6049 12.9612C25.5325 11.4669 25.1916 10.1406 24.0989 9.04789C23.0039 7.95282 21.68 7.61425 20.1857 7.54187C18.8968 7.46949 17.6197 7.48116 16.3332 7.48116C15.0443 7.48116 13.7671 7.46949 12.4806 7.54187C10.9863 7.61425 9.66011 7.95515 8.56739 9.04789C7.47234 10.143 7.13378 11.4669 7.0614 12.9612C6.98902 14.2501 7.00069 15.5273 7.00069 16.8138C7.00069 18.1003 6.98902 19.3799 7.0614 20.6664C7.13378 22.1607 7.47467 23.487 8.56739 24.5797C9.66244 25.6748 10.9863 26.0133 12.4806 26.0857C13.7695 26.1581 15.0466 26.1464 16.3332 26.1464C17.622 26.1464 18.8992 26.1581 20.1857 26.0857C21.68 26.0133 23.0062 25.6725 24.0989 24.5797C25.194 23.4846 25.5325 22.1607 25.6049 20.6664C25.6796 19.3799 25.6656 18.1027 25.6656 16.8138ZM16.3308 21.6027C13.6807 21.6027 11.542 19.4639 11.542 16.8138C11.542 14.1637 13.6807 12.0249 16.3308 12.0249C18.9809 12.0249 21.1196 14.1637 21.1196 16.8138C21.1196 19.4639 18.9809 21.6027 16.3308 21.6027ZM21.3158 12.9472C20.697 12.9472 20.1974 12.4475 20.1974 11.8288C20.1974 11.21 20.697 10.7103 21.3158 10.7103C21.9345 10.7103 22.4342 11.21 22.4342 11.8288C22.4344 11.9757 22.4056 12.1212 22.3494 12.257C22.2933 12.3928 22.2109 12.5161 22.107 12.62C22.0031 12.7239 21.8798 12.8063 21.744 12.8624C21.6082 12.9186 21.4627 12.9474 21.3158 12.9472Z"
@@ -1708,9 +1708,9 @@ export const InstagramIcon = () => (
           width="632"
           height="632"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="150" />
           <feComposite
             in2="SourceAlpha"
@@ -1732,8 +1732,8 @@ export const InstagramIcon = () => (
           y2="32.4805"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_176_13788"
@@ -1743,8 +1743,8 @@ export const InstagramIcon = () => (
           y2="26.1471"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
       </defs>
     </svg>
@@ -1767,7 +1767,7 @@ export const TwiterIcom = () => (
           height="32"
           rx="16"
           fill="url(#paint0_linear_176_13790)"
-          fill-opacity="0.2"
+          fillOpacity="0.2"
         />
         <path
           d="M27 9.50548C26.2277 9.84768 25.3981 10.0789 24.526 10.1834C25.4259 9.64494 26.0991 8.79746 26.4201 7.7991C25.5746 8.30129 24.6493 8.65478 23.6844 8.8442C23.0355 8.15135 22.176 7.69212 21.2393 7.5378C20.3027 7.38349 19.3413 7.54272 18.5044 7.99078C17.6675 8.43884 17.002 9.15067 16.6111 10.0157C16.2203 10.8808 16.1259 11.8507 16.3428 12.7749C14.6296 12.6889 12.9537 12.2436 11.4238 11.468C9.89389 10.6923 8.54416 9.60366 7.46221 8.27263C7.09227 8.91079 6.87955 9.65068 6.87955 10.4387C6.87913 11.148 7.05382 11.8465 7.38811 12.4722C7.7224 13.0979 8.20595 13.6313 8.79587 14.0253C8.11172 14.0035 7.44267 13.8187 6.8444 13.4861V13.5416C6.84433 14.5365 7.18848 15.5008 7.81846 16.2709C8.44843 17.0409 9.32542 17.5693 10.3006 17.7664C9.66597 17.9381 9.00058 17.9634 8.35471 17.8404C8.62985 18.6964 9.16581 19.445 9.88755 19.9814C10.6093 20.5177 11.4807 20.8149 12.3797 20.8314C10.8535 22.0295 8.96871 22.6793 7.02845 22.6765C6.68475 22.6766 6.34135 22.6565 6 22.6164C7.96948 23.8827 10.2621 24.5547 12.6035 24.5521C20.5296 24.5521 24.8626 17.9874 24.8626 12.2939C24.8626 12.109 24.858 11.9222 24.8497 11.7372C25.6925 11.1277 26.42 10.3729 26.9982 9.50825L27 9.50548Z"
@@ -1782,9 +1782,9 @@ export const TwiterIcom = () => (
           width="632"
           height="632"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="150" />
           <feComposite
             in2="SourceAlpha"
@@ -1806,8 +1806,8 @@ export const TwiterIcom = () => (
           y2="32.4805"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_176_13790"
@@ -1817,8 +1817,8 @@ export const TwiterIcom = () => (
           y2="27.9473"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
       </defs>
     </svg>
@@ -1841,7 +1841,7 @@ export const YoutubeIcon = () => (
           height="32"
           rx="16"
           fill="url(#paint0_linear_176_13792)"
-          fill-opacity="0.2"
+          fillOpacity="0.2"
         />
         <path
           d="M24.6243 11.5112C24.5219 11.118 24.321 10.7594 24.0417 10.4713C23.7625 10.1832 23.4147 9.97572 23.0333 9.86964C21.629 9.48047 16 9.48047 16 9.48047C16 9.48047 10.371 9.48047 8.96674 9.86757C8.58509 9.97331 8.23715 10.1807 7.95787 10.4688C7.67859 10.7569 7.4778 11.1157 7.37567 11.5091C7 12.9582 7 15.9805 7 15.9805C7 15.9805 7 19.0028 7.37567 20.4498C7.58259 21.2488 8.1933 21.8781 8.96674 22.0913C10.371 22.4805 16 22.4805 16 22.4805C16 22.4805 21.629 22.4805 23.0333 22.0913C23.8087 21.8781 24.4174 21.2488 24.6243 20.4498C25 19.0028 25 15.9805 25 15.9805C25 15.9805 25 12.9582 24.6243 11.5112ZM14.212 18.7544V13.2066L18.8728 15.9598L14.212 18.7544Z"
@@ -1856,9 +1856,9 @@ export const YoutubeIcon = () => (
           width="632"
           height="632"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="150" />
           <feComposite
             in2="SourceAlpha"
@@ -1880,8 +1880,8 @@ export const YoutubeIcon = () => (
           y2="32.4805"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_176_13792"
@@ -1891,8 +1891,8 @@ export const YoutubeIcon = () => (
           y2="26.4518"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE5B3A" />
-          <stop offset="1" stop-color="#FC2A64" />
+          <stop stopColor="#FE5B3A" />
+          <stop offset="1" stopColor="#FC2A64" />
         </linearGradient>
       </defs>
     </svg>
@@ -1901,26 +1901,26 @@ export const YoutubeIcon = () => (
 
 export const HambergerCancel = () => (
   <>
-    <svg class="h-8 w-8 fill-current" viewBox="0 0 24 24">
+    <svg className="h-8 w-8 fill-current" viewBox="0 0 24 24">
       <path
         d="M6 18L18 6M6 6l12 12"
         stroke="gray"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   </>
 );
 export const Hamberger = () => (
   <>
-    <svg class="h-8 w-8 fill-current" viewBox="0 0 24 24">
+    <svg className="h-8 w-8 fill-current" viewBox="0 0 24 24">
       <path
         d="M4 6H20M4 12H20M4 18H20"
         stroke="gray"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   </>

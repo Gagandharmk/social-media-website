@@ -43,7 +43,7 @@ const Faqs = () => {
               </h2>{" "}
               <div className="w-fit">
                 <img
-                  class="absolute lg:right-[calc(50%-102px)] lg:top-[-77px] right-[calc(50%-68px)] top-[-57px] lg:w-[84px] w-[60px] "
+                  className="absolute lg:right-[calc(50%-102px)] lg:top-[-77px] right-[calc(50%-68px)] top-[-57px] lg:w-[84px] w-[60px] "
                   src="/images/webp/BebefitForground1.webp"
                   alt="Immage"
                   style={{ transform: "scaleX(-1)" }}

@@ -23,7 +23,7 @@ const HowItWork = () => {
           <div className="relative">
             <h2 className="text-5xl text-[#00070E]">How It Work</h2>
             <img
-              class="absolute lg:right-[-100px] lg:top-[-30px] right-[-60px] top-[-20px] lg:w-[153px] w-[100px]"
+              className="absolute lg:right-[-100px] lg:top-[-30px] right-[-60px] top-[-20px] lg:w-[153px] w-[100px]"
               src="/images/webp/forgroundImg3.webp"
               alt=""
             />
