@@ -22,8 +22,8 @@ const SuccessMetrics = () => {
           <div>
             <h2 className="text-5xl text-[#00070E]">Success Metrics</h2>
           </div>
-          <div className="flex flex-col lg:flex-row justify-center sm:gap-[42px] gap-6 items-center w-full ">
-            <div className="gridentBorder rounded-2xl bg-white max-w-[558px] w-full lg:p-[30px] md:p-5 sm:p-4 p-3 lg:gap-5 mg:gap-4 sm:gap-3 gap-2 flex flex-col h-fit">
+          <div className="flex flex-col lg:flex-row justify-center items-center sm:gap-[42px] gap-6  w-full ">
+            <div className="gridentBorder rounded-2xl bg-white max-w-[558px] w-full lg:p-[30px] md:p-5 sm:p-4 p-3 lg:gap-5 mg:gap-4 sm:gap-3 gap-2 flex flex-col lg:self-stretch self-center h-auto">
               <img src="/images/webp/SuccessBefore.webp" alt="Success" />
               <div className="flex flex-col  w-full lg:gap-6 md:gap-5 sm:gap-4 gap-3">
                 <h5 className="gradient-text text-3xl">Before</h5>
@@ -65,7 +65,7 @@ const SuccessMetrics = () => {
                 </div>
               </div>
             </div>
-            <div className="gridentBorder rounded-2xl bg-white max-w-[558px] w-full lg:p-[30px] md:p-5 sm:p-4 p-3 lg:gap-5 mg:gap-4 sm:gap-3 gap-2 flex flex-col h-fit">
+            <div className="gridentBorder rounded-2xl bg-white max-w-[558px] w-full lg:p-[30px] md:p-5 sm:p-4 p-3 lg:gap-5 mg:gap-4 sm:gap-3 gap-2 flex flex-col lg:self-stretch self-center h-auto">
               <img src="/images/webp/SuccessAfter.webp" alt="Success" />
               <div className="flex flex-col  w-full lg:gap-6 md:gap-5 sm:gap-4 gap-3">
                 <h5 className="gradient-text text-3xl">After</h5>
