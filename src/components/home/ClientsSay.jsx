@@ -53,7 +53,7 @@ const ClientsSay = () => {
         src="/images/webp/forgroundImg2.webp"
         alt=""
       />{" "}
-      <div className="max-w-[1170px] px-5  w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 ">
+      <div className="max-w-[1170px] px-4  w-full mx-auto flex flex-col items-center lg:gap-[52px] sm:gap-[32px] gap-5 ">
         <div className="relative">
           <h2 className="text-5xl text-[#00070E] text-center">
             What Our Clients Say
@@ -72,20 +72,32 @@ const ClientsSay = () => {
         {/* <div className="flex !w-full  gap-5"> */}
         <Swiper
           centeredSlides={true}
-          spaceBetween={30}
           loop={true}
+          slidesPerView={1}
           pagination={{
             clickable: true,
           }}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
+          // autoplay={{
+          //   delay: 2500,
+          //   disableOnInteraction: false,
+          // }}
           modules={[Autoplay, Pagination]}
           className="ClientSwiper"
+          breakpoints={{
+            640: {
+              spaceBetween: 20,
+            },
+            1024: {
+              spaceBetween: 30,
+            },
+            1280: {
+              spaceBetween: 40,
+            },
+          }}
         >
           {testimonials.map((testimonial, index) => (
             <SwiperSlide
+              style={{ width: "100%", maxWidth: "1140px", height: "auto" }}
               key={index}
               className=" gridentBorder !w-full   bg-white lg:py-[45px] md:py-[32px] sm:py-[24px] py-[16px] px-2 flex justify-center relative overflow-hidden"
             >

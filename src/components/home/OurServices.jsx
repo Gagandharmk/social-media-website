@@ -114,6 +114,7 @@ const OurServices = () => {
               navigation={{
                 prevEl: "swiper-button-prev",
                 nextEl: "swiper-button-next",
+                clickable: true,
               }}
               className="mySwiper "
               breakpoints={{
